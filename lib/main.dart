@@ -13,7 +13,7 @@ class FlashChat extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         textTheme: const TextTheme(
           // ignore: deprecated_member_use
-          bodyText1: TextStyle(color: Colors.black54),
+          bodyLarge: TextStyle(color: Colors.black54),
         ),
       ),
       initialRoute: '/welcome',
